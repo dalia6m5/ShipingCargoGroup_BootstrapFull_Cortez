@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo-sitio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,69 +48,121 @@
        
     </header>
     
-    <main id="contenido">
+    <main id="contenido" class="container-fluid p-0">
 
         <section id="servicios">
             <div class="tit-servicios">
                 <h2>Servicios</h2>
             </div>
-            <div class="servicios-grid">
-                <div class="servicio-elemento">
-                    <h3>Transporte Internacional Aéreo</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis error, ratione sunt itaque aperiam maxime suscipit, minus in atque nesciunt nulla culpa reiciendis debitis animi esse. Fugiat sunt esse quam.</p>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
                     <img src="../imagenes/Trans aereo.jpeg" alt="aereo">
+                    <div class="card-body">
+                      <h5 class="card-title">Transporte Internacional Aéreo</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"></small>
+                    </div>
+                  </div>
                 </div>
-                <div class="servicio-elemento">
-                    <h3>Transporte Internacional Marítimo</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis error, ratione sunt itaque aperiam maxime suscipit, minus in atque nesciunt nulla culpa reiciendis debitis animi esse. Fugiat sunt esse quam.</p>
-                    <img src="../imagenes/pexels-anastasia-pavlova-8459513.jpg" alt="maritimo">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="../imagenes/Maritimo.jpg" alt="maritimo">
+                    <div class="card-body">
+                      <h5 class="card-title">Transporte Internacional Marítimo</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"></small>
+                    </div>
+                  </div>
                 </div>
-            
-            
-            
-                <div class="servicio-elemento">
-                    <h3>Agencia de Aduanas</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis error, ratione sunt itaque aperiam maxime suscipit, minus in atque nesciunt nulla culpa reiciendis debitis animi esse. Fugiat sunt esse quam.</p>
+                <div class="col">
+                  <div class="card h-100">
                     <img src="../imagenes/pexels-kelly-l-6595774.jpg" alt="agenciamiento" >
-                </div>
-                <div class="servicio-elemento">
-                    <h3>Seguro Internacional</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis error, ratione sunt itaque aperiam maxime suscipit, minus in atque nesciunt nulla culpa reiciendis debitis animi esse. Fugiat sunt esse quam.</p>
-                    <img src="../imagenes/seguro .jpeg" alt="seguro">
-                </div>
-            
-        
-            
-                <div class="servicio-elemento">
-                    <h3>Transporte Local y Nacional</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis error, ratione sunt itaque aperiam maxime suscipit, minus in atque nesciunt nulla culpa reiciendis debitis animi esse. Fugiat sunt esse quam.</p>
-                    <img src="../imagenes/local nacional.jpeg" alt="local">
-                </div>
-                <div class="servicio-elemento">
-                    <h3>Transporte Multimodal</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis error, ratione sunt itaque aperiam maxime suscipit, minus in atque nesciunt nulla culpa reiciendis debitis animi esse. Fugiat sunt esse quam.</p>
-                    <img src="../imagenes/multimodal.jpeg" alt="multimmodal">
-                </div>
-        
-        
-
-                <div class="servicio-elemento">
-                    <h3>Asesoría de Comercio Exterior</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis error, ratione sunt itaque aperiam maxime suscipit, minus in atque nesciunt nulla culpa reiciendis debitis animi esse. Fugiat sunt esse quam.</p>
-                    <img src="../imagenes/asesoria-en-comercio-internacional.jpeg" alt="asesoria">
-                </div>
-            
-                <div class="servicio-elemento">
-                    <h3>Courrier</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis error, ratione sunt itaque aperiam maxime suscipit, minus in atque nesciunt nulla culpa reiciendis debitis animi esse. Fugiat sunt esse quam.</p>
-                    <img src="../imagenes/Courier-Paqueteria.jpeg" alt="courrier">
+                    <div class="card-body">
+                      <h5 class="card-title">Agencia de Aduanas</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"></small>
+                    </div>
+                  </div>
                 </div>
 
-            </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../imagenes/seguro .jpeg" alt="seguro">
+                      <div class="card-body">
+                        <h5 class="card-title">Seguro Internacional</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted"></small>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="col">
+                    <div class="card h-100">
+                        <img src="../imagenes/local nacional.jpeg" alt="local">
+                      <div class="card-body">
+                        <h5 class="card-title">Transporte Local y Nacionale</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted"></small>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card h-100">
+                        <img src="../imagenes/multimodal.jpeg" alt="multimmodal">
+                      <div class="card-body">
+                        <h5 class="card-title">Transporte Multimodal</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted"></small>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card h-100">
+                        <img src="../imagenes/asesoria-en-comercio-internacional.jpeg" alt="asesoria">
+                      <div class="card-body">
+                        <h5 class="card-title">Asesoría de Comercio Exterior</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted"></small>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card h-100">
+                        <img src="../imagenes/Courier-Paqueteria.jpeg" alt="courrier">
+                      <div class="card-body">
+                        <h5 class="card-title">Courrie</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted"></small>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+        
         </section>
 
-        <section id="call-cotiza">
+        <section id="call-cotiza" class="container-fluid">
         
         <h2>Tenemos lo que necesitas</h2>
         <a href="../paginas/cotiza.html">Cotiza aquí</a>
@@ -118,7 +171,7 @@
         
     </main>
     
-    <footer id="pie">
+    <footer id="pie" class="container-fluid">
 
         <div class="pie-contenedor">
            <div class="pie-logo">
@@ -151,6 +204,6 @@
         
 
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

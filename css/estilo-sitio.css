@@ -427,6 +427,14 @@
     margin-top: 10px;
 } 
 
+#contenido #servicios div div .card-body {
+    color: #2368AD;
+}
+
+#contenido #servicios div div .card-footer {
+    background-color: aliceblue !important;
+}
+
 /* #contenido #galeria {
     grid-area: galeria; 
     display: grid;

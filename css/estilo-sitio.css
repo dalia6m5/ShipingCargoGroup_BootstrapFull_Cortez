@@ -441,14 +441,24 @@
 }
 
 #contenido #cotiza {
-  /*   grid-area: cotiza; */
-    display: flex;
-    height: 100vh;
+  /*   grid-area: cotiza;
+   
+     */
+     display: flex;
+    
     justify-content: center;
     align-items: center;
+    height: 100vh;
     padding: 10px;
     background: aliceblue;
+    color: #2368AD;
+}
+
+#contenido #cotiza div {
+    background-color: white;
+    border-radius: 10px;
     
+
 }
 
 #contenido #cotiza .cotiza-contenedor {

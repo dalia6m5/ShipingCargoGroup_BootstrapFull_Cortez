@@ -427,17 +427,22 @@
     margin-top: 10px;
 } 
 
-#contenido #galeria {
-    /* grid-area: galeria; */
+/* #contenido #galeria {
+    grid-area: galeria; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     margin: 25px;
+}*/
+
+#contenido #galeria div .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
 }
 
-#contenido #galeria img {
+#contenido #galeria div div img {
     width: 100%;
-    height: 600px;
+   height: 400px;
 }
 
 #contenido #cotiza {

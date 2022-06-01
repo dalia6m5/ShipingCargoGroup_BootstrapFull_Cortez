@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo-sitio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    
 </head>
 <body class="contenedor-grid">
     <header id="cabecera">
@@ -49,21 +51,35 @@
     
     <main id="contenido">
 
-        <section id="galeria">
-            <!-- <h2>Galaría</h2> -->
-        
+        <section id="galeria" class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <img src="../imagenes/pexels-cottonbro-10620467.jpg" alt="img01">
-                    <img src="../imagenes/pexels-felix-haumann-3735930.jpg" alt="img02" >
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <img src="../imagenes/pexels-anastasia-pavlova-8459513.jpg" alt="img03">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <img src="../imagenes/pexels-freestocksorg-122164.jpg" alt="img04">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <img src="../imagenes/pexels-kelly-l-6595774.jpg" alt="img05">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="../imagenes/pexels-kindel-media-9716369.jpg" alt="img06">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <img src="../imagenes/pexels-kindel-media-9716369.jpg" alt="img06">
             
+                </div>
+                
+            </div>
+
         </section>
 
     </main>
 
-    <footer id="pie">
+    <footer id="pie" class="container-fluid">
 
         <div class="pie-contenedor">
            <div class="pie-logo">
@@ -97,5 +113,6 @@
 
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

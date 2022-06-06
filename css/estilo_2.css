@@ -92,6 +92,48 @@
     display: inline
 }
 
+#cabecera .cabecera-barra {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5% 5px 5%;
+    background-color: #2368AD;  
+}
+
+#cabecera .cabecera-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+#cabecera .cabecera-nav ul li a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+#cabecera .cabecera-nav ul li a:hover{
+    color: #2368AD;
+}
+
+#cabecera .cabecera-nav ul li a.inicio{
+    display: none;
+}
+
+
+#cabecera .cabecera__logo {
+    /* margin-top: 10px;  */ 
+    animation-name: logo-animacion;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    
+}
+
 @keyframes logo-animacion {
     0% {
         transform: translate(-10px, 0px);
@@ -251,6 +293,27 @@
  }
 
  
+ #contenido #servicios {
+    margin: 50px;
+   /*  grid-area: servicios; */
+}
+
+#contenido #servicios .tit-servicios {
+    font-size: 40px;
+    color: #2368AD;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#contenido #servicios div div .card-body {
+    color: #2368AD;
+}
+
+#contenido #servicios div div .card-footer {
+    background-color: aliceblue !important;
+}
+
+
 /* Estilo-pie */
 
 #pie {
@@ -316,6 +379,14 @@
         display: block;
     }
 
+    #cabecera .cabecera-barra {
+        flex-direction: row; 
+    }
+    
+    #cabecera .cabecera-nav ul li a.inicio{
+        display: block;
+    }
+
     #contenido #servicios .servicios-iconos {
         grid-template-columns: 1fr 1fr;
     } 
@@ -336,6 +407,11 @@
 
 @media (min-width: 992px) {
     #cabecera-index .cabecera-nav-index ul li a {
+        font-size: 20px;
+    
+    }
+
+    #cabecera .cabecera-nav ul li a {
         font-size: 20px;
     
     }

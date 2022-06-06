@@ -149,6 +149,10 @@
     color: #2368AD;
 }
 
+#cabecera .cabecera-nav ul li a.inicio{
+    display: none;
+}
+
 #cabecera .cabecera__logo {
     margin-top: 10px;  
     animation-name: logo-animacion;
